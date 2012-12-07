@@ -1,0 +1,69 @@
+{
+    "hardware": {
+        "cpu": {
+            "name": "Intel E5400",
+            "clock": "2.1G",
+            "core": 2
+        },
+        "memory": "16 GB",
+        "disk": "100 GB",
+        "network": "2 MB"
+    },
+    "software": {
+        "architecture": "bs/cs",
+        "language": "java/php/dotnet/asp",
+        "os": {
+            "name": "windows 2003",
+            "partition": {
+                "c": "100GB",
+                "d": "200GB"
+            },
+            "soft": [
+                "iis",
+                "office"
+            ],
+            "network": {
+                "port": [
+                    80,
+                    21
+                ]
+            },
+            "webserver": {
+                "type": "iis",
+                "version": 7,
+                "sites": [
+                    {
+                        "index": 1,
+                        "domain": [
+                            "www.a.com",
+                            "www.b.com"
+                        ],
+                        "ip": [
+                            "1.2.3.4",
+                            "5.6.7.8"
+                        ]
+                    },
+                    {
+                        "index": 2,
+                        "domain": [
+                            "www.a2.com",
+                            "www.b2.com"
+                        ],
+                        "ip": [
+                            "1.2.3.4",
+                            "5.6.7.8"
+                        ]
+                    }
+                ]
+            }
+        },
+        "database": {
+            "type": "mysql/sqlserver",
+            "storage": "innodb",
+            "storedprocedure": true
+        }
+    },
+    "userinfo": {
+        "dailyorders": 200
+    }
+}
