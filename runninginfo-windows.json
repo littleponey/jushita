@@ -40,6 +40,11 @@
     },
     "database": {
         "sqlserver": {
+            "Data Space": "value",
+            "Log Space": "value",
+            "Index Space": "value",
+            "Index Num": "value",
+            "Slow Sql Num": "value",
             "User Connections": "value",
             "Page Splits/sec": "value",
             "Buffer Cache Hit Ratio": "value",
