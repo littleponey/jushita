@@ -47,6 +47,10 @@
     },
     "database": {
         "mysql": {
+            "Data Space": "value",
+            "Log Space": "value",
+            "Index Space": "value",
+            "Index Num": "value",     
             "dml": {
                 "select": "value",
                 "insert": "value",
