@@ -1,0 +1,52 @@
+{
+    "cpu": {
+        "us": 11,
+        "sy": 22,
+        "id": 90,
+        "r": 2
+    },
+    "memory": {
+        "free": 1212048,
+        "pages-ps": 128
+    },
+    "disk": {
+        "Used": 1000,
+        "Use%": "20%",
+        "iops": 3000
+    },
+    "network": {
+        "BPS": 100000
+    },
+    "process": [
+        {
+            "pid": 111,
+            "%cpu": 10,
+            "%mem": 22,
+            "time": "0:00:09",
+            "command": "top"
+        },
+        {
+            "pid": 112,
+            "%cpu": 10,
+            "%mem": 22,
+            "time": "0:00:09",
+            "command": "init"
+        }
+    ],
+    "webserver": {
+        "iis": {
+            "connection": 100
+        }
+    },
+    "database": {
+        "sqlserver": {
+            "User Connections": "value",
+            "Page Splits/sec": "value",
+            "Buffer Cache Hit Ratio": "value",
+            "Target Server Memory (KB)": "value",
+            "Total Server Memory (KB)": "value",
+            "Transactions/sec": "value",
+            "Batch Requests/Sec": "value"
+        }
+    }
+}
