@@ -1,0 +1,76 @@
+{
+    "cpu": {
+        "us": 11,
+        "sy": 22,
+        "id": 90,
+        "wa": 0,
+        "r": 2,
+        "load1": 0.02,
+        "load5": 0.03,
+        "load15": 0
+    },
+    "memory": {
+        "free": 1212048
+    },
+    "swap": {
+        "si": 0,
+        "so": 0
+    },
+    "disk": {
+        "Used": 1000,
+        "Use%": "20%",
+        "iops": 3000
+    },
+    "network": {
+        "BPS": 100000
+    },
+    "process": [
+        {
+            "pid": 111,
+            "%cpu": 10,
+            "%mem": 22,
+            "time": "0:00:09",
+            "command": "top"
+        },
+        {
+            "pid": 112,
+            "%cpu": 10,
+            "%mem": 22,
+            "time": "0:00:09",
+            "command": "init"
+        }
+    ],
+    "webserver": {
+        "apache": {
+            "connection": 100
+        }
+    },
+    "database": {
+        "mysql": {
+            "dml": {
+                "select": "value",
+                "insert": "value",
+                "update": "value",
+                "delete": "value",
+                "replace": "value",
+                "set": "value",
+                "commit": "value",
+                "qps": "value",
+                "slow": "value",
+                "slow-time": "value"
+            },
+            "selects": {
+                "full_scan": "value",
+                "full_join": "value",
+                "range": "value",
+                "sort_merge_passes": "value"
+            },
+            "connections": {
+                "max_connections": "value",
+                "max_connections_used": "value",
+                "connections": "value",
+                "aborted": "value"
+            }
+        }
+    }
+}
