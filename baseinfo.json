@@ -7,7 +7,7 @@
         },
         "memory": "16 GB",
         "disk": "100 GB",
-        "network": "2 MB"
+        "bandwidth": "2 MB"
     },
     "software": {
         "architecture": "bs/cs",
